@@ -9,8 +9,14 @@ Esta aplicação é exclusivamente feita para Marisa.
 npm install
 ```
 
-3- Para subir a aplicação, execute este comando na pasta raiz aplicação: 
+2- Para subir a aplicação, execute este comando na pasta raiz aplicação: 
 
 ```
 npm start 
+```
+
+3- Esta aplicação necessita consumir a seguinte API em Node.js para funcionar corretamente:
+
+```
+https://github.com/felipe-alecsandro/marisaNodeAPI
 ```
