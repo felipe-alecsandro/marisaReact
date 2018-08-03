@@ -1,0 +1,358 @@
+/* Custom Stylesheet */
+
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.container {
+  max-width: 1120px;
+}
+
+.breadcrumb, .breadcrumb:before {
+  color: #242424 !important;
+  font-size: 9px;
+  display: inline-block;
+}
+
+.breadcrumb:before{
+      margin: 0 2px 0 2px;
+} 
+
+nav ul a, nav .brand-logo {
+  color: #444;
+  position: sticky;
+}
+
+nav{
+  -webkit-box-shadow: unset;
+  box-shadow: unset;
+}
+
+nav.vitrine {
+  height: 128px;
+  padding-top: 10px;
+}
+
+nav i.material-icons {
+  font-size: 43px;
+  color: #adb5bd;
+}
+
+nav form {
+  height: 45%;
+  width: 45%;
+  position: inherit;
+  margin: 0 auto;
+}
+
+nav button>i.material-icons {
+  font-size: 25px;
+  color: #ffffff;
+  line-height: 45px;
+  height: unset;
+}
+
+nav ul a:hover {
+  background-color: unset;
+}
+
+.sidenav-trigger i.material-icons {
+  margin-top: 6px;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.breadcrumb-vitrine {
+  color: #242424;
+  line-height: unset;
+  height: unset;
+  background-color: #fff;
+  letter-spacing: 1px;
+  padding-left:10px;
+  margin: -5px 0 5px 0;
+}
+
+.brand-logo img {
+  max-width: 160px;
+  vertical-align: middle;
+}
+
+.icon-block {
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+
+.icon-block img {
+  width: 233px;
+  height: 280px;
+  position: relative;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.mini-badge {
+  background-color: #ec008c;
+  font-family: "Josefin Sans", sans-serif;
+  width: 18px;
+  height: 18px;
+  line-height: 20px;
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  border-radius: 50%;
+  font-size: .8em;
+  font-weight: 400;
+  cursor: default;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.shopping-bag .mini-badge {
+  position: absolute;
+  bottom: 18px;
+  right: 10px;
+}
+
+.shopping-bag img {
+  max-height: 40px;
+  margin-top: 12px;
+}
+
+#search-input {
+  border: 1px solid #999;
+  border-right-color: #e80e8a;
+  max-width: 83%;
+  float: left;
+  text-indent: 25px;
+}
+
+.input-group {
+  margin: 0 auto;
+  height: 100%;
+  margin-top: -61px;
+}
+
+.input-group button {
+  height: 87%;
+  width: 16%;
+  border: 0;
+  background-color: #e80e8a;
+  vertical-align: top;
+  cursor: pointer;
+}
+
+.title-product {
+  font-family: 'Roboto', sans-serif;
+  color: #545454;
+  font-weight: bold;
+  font-size: 12px;
+  letter-spacing: 0.8px;
+}
+
+.price-installments {
+  position: relative;
+}
+
+.prices {
+  font-family: 'Roboto', sans-serif;
+  color: #ec008c;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.installments {
+  font-family: 'Roboto', sans-serif;
+  color: #545454;
+  font-weight: bold;
+  font-size: 9px;
+  position: absolute;
+  right: 0;
+  bottom: 3px;
+}
+
+button.add-into-bag {
+  background-color: #00B300;
+  color: #FFF;
+  font-weight: 400;
+  text-align: center;
+  font-size: 9px;
+  letter-spacing: 1px;
+  padding: 5px;
+  border: 0px;
+  width: 100%;
+  cursor: pointer;
+}
+
+/* // CAR-SHOPPING */
+
+.roboto {
+  font-family: 'Roboto', sans-serif !important;
+}
+
+nav.shop-list {
+  height: unset;
+}
+
+nav .sidenav-back {
+  float: left;
+  position: relative;
+  z-index: 1;
+  height: 56px;
+  margin: 5px 0 0 0;
+}
+
+nav .sidenav-back i {
+  color: #2f2d2d;
+  font-weight: 800;
+  font-size: 38px;
+}
+
+.back-step {
+  color: #545454;
+  font-family: 'Roboto', sans-serif !important;
+  line-height: 25px;
+  border-bottom: 1.5px solid #c7c7c7;
+  font-size: 15.31px;
+  font-weight: bold;
+}
+
+.car-product-photo img {
+  width: 90px;
+}
+
+.car-control-product {
+  height: 38px;
+  padding-top: 10px;
+}
+
+.car-title-product p {
+  font-size: 12px;
+  font-weight: bold;
+  color: #545454;
+  letter-spacing: 1px;
+  margin-top: unset;
+  text-align: center;
+}
+
+.icons-car-delete {
+  font-size: 30px;
+  color: #a9b1ba;
+}
+
+.car-control-product .dp48 {
+  color: #545454;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.car-number-product {
+  border: 1px solid #545454;
+  padding: 5px 10px;
+  margin: 0 10px;
+}
+
+.row.unset {
+  margin-bottom: unset !important;
+}
+
+.price-product {
+  font-size: 12px;
+  font-weight: 400;
+  color: #545454;
+  letter-spacing: 1px;
+}
+
+.installment-product {
+  font-size: 9px;
+  font-weight: bold;
+  color: #545454;
+}
+
+.car-total-unit {
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 1.43px;
+}
+
+.full-subtotal {
+  font-size: 15.31px;
+  text-align: right;
+  font-weight: 700;
+  line-height: 24px;
+  color: #545454
+}
+
+.car-subtotal {
+  border-bottom: 2px solid #c7c7c7;
+  margin-bottom: 5px;
+}
+
+.car-finish {
+  text-align: right;
+}
+
+.car-finish button {
+  background-color: #00B300;
+  width: 30%;
+  border: 0px;
+  color: #FFF;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  margin: 8px 0px;
+  height: 46px;
+  cursor: pointer;
+}
+
+button.add-into-bag:active, .car-finish button:active, .car-section .material-icons:active {
+  /* background-color:#5cbf2a; */
+  position: relative;
+  top: 1px;
+}
+
+.car-section .material-icons {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 992px) {
+  
+  .brand-logo img {
+    max-height: 30px;
+  }
+  .item-photo {
+    width: 100%;
+    height: auto;
+    max-width: 165px;
+  }
+  .input-group {
+    margin: 0 auto;
+    height: 100%;
+    width: 90%;
+    /* display: table; */
+  }
+  .input-group {
+    width: 90%;
+    margin-top: 0px;
+  }
+  .car-title-product p {
+    text-align: unset;
+  }
+  nav form {
+    width: unset;
+  }
+  .input-group button {
+    height: 82%;
+  }
+  .car-finish button {
+    width: 100%;
+  }
+
+}
